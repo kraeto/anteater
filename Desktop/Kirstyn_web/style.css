@@ -1,0 +1,163 @@
+/*
+
+COLORS LIST:
+Year Up Gold: #cf9212
+Year Up Blue: #28499b
+Year Up Dark Grey: #282828;
+
+
+*/
+a {
+	color: #cf9212;
+}
+
+a:visited {
+	color: #cf9212;
+}
+
+
+body {
+	font-family: Helvetica;
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#thebobbytext {
+	overflow-x: auto;
+	overflow-y: auto;
+    position: absolute; 
+    top: 35%;
+    left: 20px;
+    right: 20px;
+    bottom:10px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.thebodytext {
+	overflow-x: auto;
+	overflow-y: auto;
+    position: absolute; 
+    top: 40%;
+    left: 20px;
+    right: 20px;
+    bottom:10px;
+	padding-right: 200px;
+	padding-left: 200px;
+	font-size: 18px;
+}
+
+footer {
+	position: fixed;
+	top: 95%;
+	text-align: left;
+}
+
+#thelogo {
+	float: left;
+	position: relative;
+}
+
+.login {
+	text-align: center;
+}
+
+.hideit {
+	display: none;
+}
+
+#socialmedia {
+	text-align: center;
+}
+
+#socialmedia a {
+	text-decoration: none;
+}
+
+.socialmedia {
+	height: 25px;
+}
+
+#vName {
+	float: right;
+	font-size: 20px;
+}
+
+h1	{
+	color: #28499b;
+	text-align:	center;
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 22px;
+	color: #282828;
+	text-align: center;
+}
+
+h4 {
+	display: none;
+}
+
+p	{
+	color: #28499b;
+ }
+
+.partners {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mainpage {
+	display: block;
+	height: 100%;
+	width: 100%;
+	}
+ 
+header {
+	 background-color: #ffffff;
+	 border-color: #28499b;
+	 border-width: 2px;
+	 border-style: solid;
+	 width: 95%;
+	 height: 90px;
+	 text-align:center;
+	 margin-left:auto;
+	 margin-right:auto;
+	 padding: 10px;
+	}
+ 
+header a	{
+	font-family: Helvetica;
+	font-size:20px;
+	font-weight:bold;
+	color: #282828;
+	margin: 15px;
+	text-decoration:none;
+	padding:5px;
+	vertical-align: middle;
+	}
+ 
+header a:hover {
+	text-decoration:underline;
+	color: #28499b;
+	}
+
+ul, ol, li {
+	text-align: left;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: solid 5px #c9c9c9;
+	transition: border 0.3s;
+}
+
+input[type="submit"] {
+	font-size: 12px;
+	font-family: Arial;
+	padding: 10px;
+	border: solid 5px;
+}

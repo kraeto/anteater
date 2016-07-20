@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>YUBA QA | Quality Assurance</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="cookies.js"></script>
+    <script>
+	//use this script for stuff related to this page only
+	</script>
+</head>
+<body>
+
+<header>
+<img src="images/YUlogo.jpg" alt="Logo" id="thelogo" />
+<br />
+<br />
+<a href="index.html">Home</a>
+<a href="login.html">Login Page</a>
+<a href="yuba.html">Year Up Bay Area</a>
+<a href="yubaqa.html">Year Up & QA</a>
+<a href="qageneral.html">More About QA</a>
+</header>
+
+<div id="socialmedia">
+	<a href="https://www.facebook.com/YearUpBayArea/" target="_blank">
+		<img src="images/fb.png" alt="Facebook" class="socialmedia" />
+	</a>
+	<a href="https://twitter.com/yearupbayarea?lang=en" target="_blank">
+		<img src="images/twitter.png" alt="Twitter" class="socialmedia" />	
+	</a>
+	<a href="https://www.youtube.com/user/SFYearUp" target="_blank">
+		<img src="images/youtube.png" alt="Youtube" class="socialmedia" />
+	</a>
+	<a href="https://www.instagram.com/yearupbayarea/?hl=en" target="_blank">
+		<img src="images/insta.png" alt="Instagram" class="socialmedia" />
+	</a>
+</div>
+
+<span id="vName"><script>readCookie('myCookie')</script></span>
+<h1>Welcome to the YUBA-QA Archive!</h1>
+<form name="frmLogin" class="hideit">
+	Enter Your Name and E-mail to Log In: <input type="text" name="fname" id="fname" size="20" placeholder="Your name">
+	<input type="text" name="fmail" id="fmail" size="20" placeholder="Your e-mail">
+	<input type="button" Value="Log In" onClick="createCookie('myCookie',frmLogin.fname.value, frmLogin.fmail.value)">
+	<input type="button" Value="Debug: Show Cookies" onClick="showCookie()">
+</form>
+<br />
+<div class="thebodytext">
+<h2>Please feel free to utilize the resources in this website to learn more about Year Up, YUBA's Quality Assurance Track, or Quality Assurance in general.</h2>
+
+<h4>Open this page in Firefox only - it will not currently work in Chrome *</h4>
+
+<h3>Want to learn more about Quality Assurance? Keep reading!</h3>
+
+<p>The burning question is: What exactly is Quality Assurance?</p>
+<p><strong>It is the maintenance of a desired level of quality in a service or product, especially by means of attention to every stage of the process of delivery or production.</strong></p>
+<p>Quality assurance isn't just important for software testing. All companies should be able to test out their product or service before submitting it to consumers. Quality assurance looks different for each company and industry:</p>
+<ul>
+	<li>A chef for a family-owned restaurant tests out her new recipe with the restaurant owners in order to receive feedback</li>
+	<li>An event planner compares the layout of an upcoming party with the actual venue space</li>
+	<li>App developers hand out a beta version of their product to friends and family in order to perform a black-box test of the software</li>
+</ul>
+<h2>Software Quality Assurance: Finding Bugs</h2>
+<p>Bugs are everywhere. Even with Quality Assurance, all software or products aren't bug free.</p>
+<a href="http://www.sciencealert.com/a-bug-in-fmri-software-could-invalidate-decades-of-brain-research-scientists-discover">Here</a>
+is an example of a recent software bug that was found.<p>In Software Development, Quality Assurance involves testing during the <strong>Software Development Life Cycle</strong>. QA testers use bug tracking software such as JIRA in order to find bugs within the software. Each bug report should include what the software was supposed to do, what it actually did, and how to reproduce it.</p>
+</div>
+<footer>© Kirstyn Torio</footer>
+<!-- <dl>
+<dt><strong>* Why does this not work in Chrome?</strong></dt>
+<dd>If you open this file from your local machine - ie: the address bar above begins with <b>file://</b> - Chrome does not recognize local cookies. For this to work in Chrome, you need to upload it to a web server (such as Apache or NGinex) and access it via <b>http://</b></dd>
+<dd>If you upload to your web server, remember also to upload the linked cookies.js file</dd>
+<dl> -->
+</body>
+</html>

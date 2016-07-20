@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>YUBA-QA Archive | Log In</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="payne.js"></script>
+	</head>
+<body>	
+	<header>
+<!-- Look up Cornerstone Year Up logo -->
+<img src="images/YUlogo.jpg" alt="Logo" id="thelogo" />
+<br />
+<br />
+<a href="index.html">Home</a>
+<a href="login.html">Login Page</a>
+<a href="yuba.html">Year Up Bay Area</a>
+<a href="yubaqa.html">Year Up & QA</a>
+<a href="qageneral.html">More About QA</a>
+</header>
+
+<div id="socialmedia">
+	<a href="https://www.facebook.com/YearUpBayArea/" target="_blank">
+		<img src="images/fb.png" alt="Facebook" class="socialmedia" />
+	</a>
+	<a href="https://twitter.com/yearupbayarea?lang=en" target="_blank">
+		<img src="images/twitter.png" alt="Twitter" class="socialmedia" />	
+	</a>
+	<a href="https://www.youtube.com/user/SFYearUp" target="_blank">
+		<img src="images/youtube.png" alt="Youtube" class="socialmedia" />
+	</a>
+	<a href="https://www.instagram.com/yearupbayarea/?hl=en" target="_blank">
+		<img src="images/insta.png" alt="Instagram" class="socialmedia" />
+	</a>
+</div>
+
+<span id="vName"><script>readCookie('myCookie')</script></span>
+<br />
+<h1>Welcome to the YUBA-QA Archive!</h1>
+<form id="loginField">
+	Enter Your Name and E-mail to Log In: 
+	<br />
+	<input type="text" name="first" id="fname" size="30" placeholder="First name">
+	<br />
+	<input type="text" id="fmail" size="30" placeholder="Your e-mail">
+	<br />
+	<br />
+	<button id="submit-form" type="submit" onClick="setCookie('myCookie',loginField.first.value)">Log In</button>
+<!-- 	onClick="createCookie('myCookie',frmLogin)" -->
+<!-- include this in the button tag when created -->
+</form>
+<footer>© Kirstyn Torio</footer>
+</body>
+</html>
